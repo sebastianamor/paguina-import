@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  font-style: "Noto Sans", sans-serif;;
+}
+
+.home {
+  padding: 20px;
+}
+
+
+.iniciopag{
+  background-image: url('imagenes/colegio.jpg');
+  background-size: 1500px;
+  background-position: center;
+  font-size: xx-large; 
+  
+}
+
+.home-item {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.profile-toledo {
+  width: 500px;
+  height: 690px;
+  object-fit: cover;
+  margin-right: 10px;
+  
+}
+
+.profile {
+  width: 900px;
+  height: 700px;
+  object-fit: cover;
+  justify-content: left;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.home-text {
+  max-width: 600px;
+}
+
+.home-text h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.home-text p {
+  font-size: 1.2em;
+  line-height: 1.5;
+}
+
+.home-text ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin: 20px 0;
+}
+
+.home-text li {
+  margin-bottom: 10px;
+  list-style-type: none
+}
+
+li {
+  list-style-type: none
+
+}
+
+.firma {
+  padding-top: 100px;
+  color: azure;
+}

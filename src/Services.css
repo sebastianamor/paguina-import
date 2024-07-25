@@ -1,0 +1,47 @@
+.services {
+  padding: 20px;
+  text-align: center;
+}
+
+.service-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.service-buttons button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s;
+}
+
+.service-buttons button:hover {
+  background-color: #0056b3;
+}
+
+.service-message {
+  font-size: 1.2em;
+  color: #333;
+  margin-top: 20px;
+}
+
+.service-message li {
+  text-align: left;
+  list-style-type: none;
+}
+
+.civ{
+  width: 400px;
+  height: 300px;
+  transition: 0.5s;
+}
+
+.civ:hover{
+  transform: scale(1.2);
+}

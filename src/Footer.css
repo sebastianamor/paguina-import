@@ -1,0 +1,39 @@
+.footer {
+  background-color: #050c1a;
+  color: white;
+  padding: 20px;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.about, .contact-info {
+  max-width: 45%;
+}
+
+.footer h3 {
+  margin-top: 0;
+  font-size: 1.5em;
+}
+
+.footer p, .footer ul {
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+.contact-info ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contact-info li {
+  margin-bottom: 10px;
+}
