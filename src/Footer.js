@@ -31,7 +31,8 @@ function Footer() {
           <ul>
             <li><FcPhone />+56 9 7692 3044  </li>
             <li> <FcAddressBook /> jmvimports01@gmail.com  </li>
-            <li><FcDepartment /> </li>
+            <li><FcDepartment />   serafin zamora 0310 , santiago  maipu
+             Bodega 10 </li>
           </ul>
         </div>
       </div>

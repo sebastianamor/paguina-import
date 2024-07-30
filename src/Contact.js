@@ -10,7 +10,7 @@ function Contact() {
   <p type="Nombre:"><input placeholder="ingrese su nombre.."   name="nombre"   ></input></p>
   <p type="Email:"><input placeholder="por favor ingrese su email.."  name="email"  ></input></p>
   <p type="Mensaje:"><input placeholder="escriba su consulta.."  name="consulta"  ></input></p>
-  <button>enviar</button>
+  <button class="button-cont"  >enviar</button>
   <div class="c1" >
     <span class="fa fa-phone"></span><FcPhone /> +569 92930308:
     <span class="fa fa-envelope-o"></span> <FcAddressBook />  ibanez@dppjtoledoycia.cl 

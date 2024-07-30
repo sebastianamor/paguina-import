@@ -7,13 +7,12 @@ function Header() {
     <header className="header">
       <div className="header-content">
         <div>
-          <h1> JMV
-          </h1>
-          <p><h2>import </h2></p>
-        </div>
         <img src={profileImag} alt="Perfil" className="profile-imag" />
+          <h1> 
+          </h1>
+          <p><h2> </h2></p>
+        </div>
       </div>
-      
     </header>
   );
 }

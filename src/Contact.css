@@ -38,7 +38,7 @@ p:before{content:attr(type);
         display:block;
         margin:28px 0 0;
         font-size:14px;color:#5a5a5a}
-  button{
+  .button-cont {
             cursor:pointer;
               position:relative;
               padding:10px 20px;
