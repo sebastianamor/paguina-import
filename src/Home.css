@@ -10,7 +10,6 @@ body {
 
 
 .iniciopag{
-  background-image: url('imagenes/colegio.jpg');
   background-size: 1500px;
   background-position: center;
   font-size: xx-large; 
@@ -22,14 +21,12 @@ body {
   align-items: flex-start;
   justify-content: center;
   margin-bottom: 40px;
+  font-size: large;
 }
 
-.profile-toledo {
-  width: 500px;
-  height: 690px;
-  object-fit: cover;
-  margin-right: 10px;
-  
+.pullmac {
+  width: 200px;
+  height: 200px;
 }
 
 .profile {
@@ -39,16 +36,15 @@ body {
   justify-content: left;
 }
 
-.profile-image {
+.stark {
   width: 150px;
   height: 150px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-right: 20px;
+  padding: 10px 10px 10px 10px;
 }
 
 .home-text {
   max-width: 600px;
+  
 }
 
 .home-text h2 {
@@ -77,7 +73,8 @@ li {
 
 }
 
-.firma {
-  padding-top: 100px;
-  color: azure;
+.vermon {
+  width: 500px;
+  padding-right: 100px;
+  padding:  10px 10px 10px 10px;
 }
