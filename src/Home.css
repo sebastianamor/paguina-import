@@ -5,7 +5,7 @@ body {
 }
 
 .home {
-  padding: 20px;
+  padding: 10px;
 }
 
 
@@ -16,28 +16,27 @@ body {
   
 }
 
+
+
 .home-item {
   display: flex;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: left;
   margin-bottom: 40px;
-  font-size: large;
+  font-size: medium;
+  padding: 10px -10px 10px 10px ;
+  max-width: 100px;
 }
 
 .pullmac {
-  width: 200px;
+  width: 250px;
   height: 200px;
-}
-
-.profile {
-  width: 900px;
-  height: 700px;
-  object-fit: cover;
-  justify-content: left;
+  padding-bottom: 20px;
+  
 }
 
 .stark {
-  width: 150px;
+  width: 250px;
   height: 150px;
   padding: 10px 10px 10px 10px;
 }
@@ -52,29 +51,17 @@ body {
   margin-bottom: 20px;
 }
 
-.home-text p {
-  font-size: 1.2em;
-  line-height: 1.5;
-}
 
-.home-text ul {
-  list-style-type: disc;
-  padding-left: 20px;
-  margin: 20px 0;
-}
 
-.home-text li {
-  margin-bottom: 10px;
-  list-style-type: none
-}
-
-li {
-  list-style-type: none
-
-}
 
 .vermon {
-  width: 500px;
-  padding-right: 100px;
-  padding:  10px 10px 10px 10px;
+  width: 300px;
+  height: 100px;
+  padding:  10px 30px 10px 10px;
+  align-items: center;
+}
+
+.firmaf{
+  padding-left: 20px;
+  
 }

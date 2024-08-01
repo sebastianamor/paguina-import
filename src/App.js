@@ -9,6 +9,8 @@ import Map from './Map';
 import Footer from './Footer';
 import Blog from './Blog';
 import FloatingButton from './FloatingButton';
+import { BrowserRouter as Router, Switch, 
+  Route, Redirect,} from "react-router-dom";
 
 function App() {
   const [selectedSection, setSelectedSection] = useState('home');

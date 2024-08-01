@@ -3,7 +3,9 @@ import './Home.css';
 import pullman from './imagenes/pullman.jpg';
 import starkken from './imagenes/STARKKEN.jpg';
 import vermontt from './imagenes/varmontt.jpg'
-import { FcDiploma1 } from "react-icons/fc";
+import { FaInstagramSquare } from "react-icons/fa";
+import { FaFacebookSquare } from "react-icons/fa";
+
 
 function Home() {
   return (
@@ -24,16 +26,15 @@ function Home() {
           <img  src={starkken} alt='star' className='stark' />
           <img  src={vermontt} alt='ver'  className='vermon' />
           <div className="home-text"></div>
-          <p>
-            
-           
-          </p>
           </div>
           <hr></hr>
-          <div className="home-item">
-       
+          <div className="home-r">
         <div className="home-text"></div>
-        
+          <p>siguenos en estas redes sociales </p>
+          <a href="https://www.instagram.com/jmvimports_llantas/" target="_blank" rel="noopener" className="firmai" >
+          <FaInstagramSquare icon={<FaInstagramSquare />}  className="firma"  size={50} /></a>
+          <a href="https://www.facebook.com/jmvimports/" target="_blank" rel="noopener noreferrer" className="firmaf" >
+       <FaFacebookSquare icon={<FaFacebookSquare />}  className="firma"  size={50} /></a>
           </div>
           <hr></hr>
           <div className="home-item">

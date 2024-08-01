@@ -5,21 +5,18 @@ import { FcAddressBook } from "react-icons/fc";
 import { FcDepartment } from "react-icons/fc";
 import { FaLinkedin } from "react-icons/fa6";
 
-import { FaInstagram } from "react-icons/fa";
 
 function Footer() {
   return (
     <footer className="footer">
       <div className="footer-content">
         <div className="about">
-          <h3></h3>
-          <p>
+          <ul>navegador
+            <li>inicio </li>
             
-          </p>
-     
-      <a href="https://www.instagram.com/jmvimports_llantas/" target="_blank" rel="noopener noreferrer" className="firma" >
-       <FaInstagram icon={<FaInstagram />}  className="firma"  size={100} />
-      </a>
+            <li>contacto</li>
+            <li>ubicasion</li>
+          </ul>
         </div>
         <div>
       <a href="https://jp.linkedin.com/in/sebastian-jacob-moreira-vergara-7b76717a" target="_blank" rel="noopener noreferrer" className="firma"  >
