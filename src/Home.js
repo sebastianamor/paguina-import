@@ -18,7 +18,7 @@ function Home() {
       <hr></hr>
         <div className="home-text">
           <div className="inicio" >
-          <p>enviamos a todo chile por </p>
+          <p><h3>enviamos a todo chile por</h3> </p>
           </div>
           </div>
           <div className="home-item">

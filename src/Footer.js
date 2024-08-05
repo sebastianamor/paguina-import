@@ -26,7 +26,7 @@ function Footer() {
         <div className="contact-info">
           <h3>Contacto</h3>
           <ul>
-            <li><FcPhone />+56 9 7692 3044  </li>
+          <li class="list-item"><i ><span ><a href="tel:+56 9 7692 3044" title="telefono contacto"><FcPhone />+56 9 7692 3044 </a></span></i></li>
             <li> <FcAddressBook /> jmvimports01@gmail.com  </li>
             <li><FcDepartment />   serafin zamora 0310 , santiago  maipu
              Bodega 10 </li>
