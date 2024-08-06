@@ -40,29 +40,26 @@ textarea {
 }
 
 .send-button {
-  margin-top: 15px;
-  height: 34px;
+  margin-top: 25px;
+  height: 50px;
   width: 230px;
-  overflow: hidden;
+  
   
 }
 
 .alt-send-button {
   width: 100px;
-  height: 14px;
+  height: 34px;
  
 }
 
 .send-text {
   display: block;
-  margin-top: 10px;
   font: 700 12px 'Lato', sans-serif;
   letter-spacing: 2px;
 }
 
-.alt-send-button:hover {
-  transform: translate3d(0px, -29px, 0px);
-}
+
 
 .direct-contact-container {
   max-width: 400px;

@@ -3,6 +3,12 @@ import './Contact.css';
 import { FaFacebook } from "react-icons/fa";
 import { BiLogoInstagram } from "react-icons/bi";
 import { BiMailSend } from "react-icons/bi";
+import { MdPlace } from "react-icons/md";
+import { BiSolidPhoneCall } from "react-icons/bi";
+import { MdAlternateEmail } from "react-icons/md";
+
+
+
 
 
 
@@ -33,7 +39,7 @@ function Contact() {
       
       <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
         <div class="alt-send-button">
-          <i ></i><span class="send-text"> <BiMailSend />enviar</span>
+          <i ></i><span class="send-text"> <BiMailSend  size={20}/>enviar</span>
         </div>
       
       </button>
@@ -44,21 +50,22 @@ function Contact() {
       <div class="direct-contact-container">
 
         <ul class="contact-list">
-          <li class="list-item"><i ><span class="contact-text place"> <a href='https://maps.app.goo.gl/ApeUV72qd6YA75FA9'  > serafin zamora 0310 , santiago maipu Bodega 10</a></span></i></li>
-          <li class="list-item"><i ><span class="contact-text phone"><a href="tel:+56 9 7692 3044" title="Give me a call">+56 9 7692 3044 </a></span></i></li>
+          <li class="list-item"><i ><span class="contact-text place"> <a href='https://maps.app.goo.gl/9b3RjLuWcNs7agr68'  ><MdPlace /> serafin zamora 0310 , santiago maipu Bodega 10</a></span></i></li>
+          <li class="list-item"><i ><span class="contact-text phone"><a href="tel:+56 9 7692 3044" title="contacto"> <BiSolidPhoneCall />
+          +56 9 7692 3044 </a></span></i></li>
           
-          <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:#" title="Send me an email">jmvimports01@gmail.com</a></span></i></li>
+          <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:jmvimports01@gmail.com" title="Send me an email"> <MdAlternateEmail />
+          jmvimports01@gmail.com</a></span></i></li>
           
         </ul>
 
         
         <ul class="social-media-list">
-          <li><a href="https://www.facebook.com/jmvimports/" target="_blank" rel="noopener" class="contact-icon"   >
-           < FaFacebook  icon={<FaFacebook />}/></a>
-          </li>
-          <li><a  href="https://www.instagram.com/jmvimports_llantas/"  target="_blank" class="contact-icon">
-            <i  aria-hidden="true"><BiLogoInstagram />  </i></a>
-          </li>       
+          siguenos en  
+          <a href="https://www.facebook.com/jmvimports/" target="_blank" rel="noopener" class="contact-icon"   >
+           <FaFacebook  icon={<FaFacebook />}/></a>
+          <a  href="https://www.instagram.com/jmvimports_llantas/"  target="_blank" class="contact-icon">
+            <i  aria-hidden="true"><BiLogoInstagram /></i></a>    
         </ul>
 
       </div>
