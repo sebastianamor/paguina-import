@@ -9,6 +9,8 @@ import Map from './Map';
 import Footer from './Footer';
 import Blog from './Blog';
 import FloatingButton from './FloatingButton';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+
 
 
 function App() {
@@ -24,7 +26,7 @@ function App() {
       <NavBar onSelect={handleSelect} />
       <main>
         {selectedSection === 'home' && <Home />}
-        {selectedSection === 'services' && <Services />}
+        {selectedSection ===  'services' && < Services />}
         {selectedSection === 'contact' && <Contact />}
         {selectedSection === 'location' && <Map />}
         {selectedSection === 'blog' && <Blog />}

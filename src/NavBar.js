@@ -9,7 +9,7 @@ function NavBar({ onSelect }) {
         <li><button onClick={() => onSelect('services')}>productos</button></li>
         <li><button onClick={() => onSelect('contact')}>Contacto</button></li>
         <li><button onClick={() => onSelect('location')}>Ubicación</button></li>
-        <li><button onClick={() => onSelect('blog')}>Blog</button></li>
+        <li><button onClick={() => onSelect('blog')}>pago</button></li>
 
       </ul>
     </nav>
