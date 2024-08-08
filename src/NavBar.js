@@ -6,10 +6,10 @@ function NavBar({ onSelect }) {
     <nav className="navbar">
       <ul>
         <li><button onClick={() => onSelect('home')}>Inicio</button></li>
-        <li><button onClick={() => onSelect('services')}>productos</button></li>
+        <li><button onClick={() => onSelect('services')}>Productos</button></li>
         <li><button onClick={() => onSelect('contact')}>Contacto</button></li>
         <li><button onClick={() => onSelect('location')}>Ubicación</button></li>
-        <li><button onClick={() => onSelect('blog')}>pago</button></li>
+        <li><button onClick={() => onSelect('blog')}>Pagos</button></li>
 
       </ul>
     </nav>

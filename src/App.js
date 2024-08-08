@@ -13,6 +13,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 
 
+
 function App() {
   const [selectedSection, setSelectedSection] = useState('home');
 
@@ -22,18 +23,18 @@ function App() {
 
   return (
     <div className="App">
-      <Header />
-      <NavBar onSelect={handleSelect} />
-      <main>
-        {selectedSection === 'home' && <Home />}
-        {selectedSection ===  'services' && < Services />}
-        {selectedSection === 'contact' && <Contact />}
-        {selectedSection === 'location' && <Map />}
-        {selectedSection === 'blog' && <Blog />}
-      </main>
-      <Footer />
-      <FloatingButton />
-    </div>
+    <Header />
+    <NavBar onSelect={handleSelect} />
+    <main>
+      {selectedSection === 'home' && <Home />}
+      {selectedSection ===  'services' && < Services />}
+      {selectedSection === 'contact' && <Contact />}
+      {selectedSection === 'location' && <Map />}
+      {selectedSection === 'blog' && <Blog />}
+    </main>
+    <Footer />
+    <FloatingButton />
+  </div>
   );
 }
 

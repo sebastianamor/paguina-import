@@ -1,9 +1,6 @@
-.blog {
-    padding: 20px;
-    text-align: center;
-  }
+.webp {
+  width: 350px;
+  height: 100px;
+  padding-bottom: 20px;
   
-  .blog h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
-  }
+}
