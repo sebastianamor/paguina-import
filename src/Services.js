@@ -1,49 +1,70 @@
 import React, { useState } from 'react';
 import './Services.css';
-import llantas from './imagenes/llantas de autos.jpg'
-import neumaticos from './imagenes/neumaticos.jpg'
-import butacas from './imagenes/butacas racer.jpg'
-import otros from './imagenes/otros auto.jpg'
-
+import llantas from './imagenes/llantas de autos.jpg';
+import neumaticos from './imagenes/neumaticos.jpg';
+import butacas from './imagenes/butacas racer.jpg';
+import otros from './imagenes/otros auto.jpg';
 
 function Services() {
-  const [message, setMessage] = useState('');
+  const [selectedService, setSelectedService] = useState('');
 
   const handleButtonClick = (service) => {
-    let msg = '';
+    setSelectedService(service);
+  };
+
+  const renderMessage = (service) => {
     switch (service) {
       case 'llantas':
-        msg = <p>  <h1>llantas</h1> </p>
-            
-        break;
+        return <p>
+          <h1>Llantas</h1>
+        <div class="gallery">
+  <img src="https://picsum.photos/id/199/400/300" alt="the beach"/>
+  <img src="https://picsum.photos/id/1011/400/300" alt="a girl doing kayak"/>
+  <img src="https://picsum.photos/id/124/400/300" alt="a small boat in the sea"/>
+  <img src="https://picsum.photos/id/235/400/300" alt="a mountain"/>
+  <img src="https://picsum.photos/id/423/400/300" alt="a forest"/>
+       </div>
+        </p>
       case 'neumaticos':
-        msg = <p><h1>neumaticos</h1></p>
-              
-        break;
+        return <p><h1>Neumáticos</h1></p>;
       case 'butacas':
-        msg = <p><h1>butacas</h1></p>
-                  
-        break;
+        return <p><h1>Butacas</h1></p>;
       case 'otros':
-        msg = <div><p><h1>otros</h1></p>
-               </div>
-        break;
+        return <p><h1>Otros</h1></p>;
       default:
-        msg = '';
+        return null;
     }
-    setMessage(msg);
   };
 
   return (
     <section className="services">
       <h2>Productos</h2>
       <div className="service-buttons">
-        <button onClick={() => handleButtonClick('llantas')}> <img src={llantas} alt="civ" className="civ"/>llantas</button>
-        <button onClick={() => handleButtonClick('neumaticos')}> <img src={neumaticos} alt="civ" className="civ"/> neumaticos </button>
-        <button onClick={() => handleButtonClick('butacas')}> <img src={butacas} alt="civ" className="civ"/>  butacas</button>
-        <button onClick={() => handleButtonClick('otros')}> <img src={otros} alt="civ" className="civ"/> otros</button>
+        <div className="service-item">
+          <button onClick={() => handleButtonClick('llantas')}>
+            <img src={llantas} alt="Llantas" className="civ" />
+          </button>
+          {selectedService === 'llantas' && <div className="service-message">{renderMessage('llantas')}</div>}
+        </div>
+        <div className="service-item">
+          <button onClick={() => handleButtonClick('neumaticos')}>
+            <img src={neumaticos} alt="Neumáticos" className="civ" />
+          </button>
+          {selectedService === 'neumaticos' && <div className="service-message">{renderMessage('neumaticos')}</div>}
+        </div>
+        <div className="service-item">
+          <button onClick={() => handleButtonClick('butacas')}>
+            <img src={butacas} alt="Butacas" className="civ" />
+          </button>
+          {selectedService === 'butacas' && <div className="service-message">{renderMessage('butacas')}</div>}
+        </div>
+        <div className="service-item">
+          <button onClick={() => handleButtonClick('otros')}>
+            <img src={otros} alt="Otros" className="civ" />
+          </button>
+          {selectedService === 'otros' && <div className="service-message">{renderMessage('otros')}</div>}
+        </div>
       </div>
-      {message && <p className="service-message">{message}</p>}
     </section>
   );
 }
