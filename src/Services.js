@@ -17,13 +17,13 @@ function Services() {
       case 'llantas':
         return <p>
           <h1>Llantas</h1>
-        <div class="gallery">
-  <img src="https://picsum.photos/id/199/400/300" alt="the beach"/>
+       <a   href="https://www.instagram.com/jmvimports_llantas/" target="_blank"  > <div class="gallery"    >
+  <img src="https://picsum.photos/id/199/400/300"   alt="the beach"/>
   <img src="https://picsum.photos/id/1011/400/300" alt="a girl doing kayak"/>
   <img src="https://picsum.photos/id/124/400/300" alt="a small boat in the sea"/>
   <img src="https://picsum.photos/id/235/400/300" alt="a mountain"/>
   <img src="https://picsum.photos/id/423/400/300" alt="a forest"/>
-       </div>
+       </div></a>
         </p>
       case 'neumaticos':
         return <p><h1>Neumáticos</h1></p>;
