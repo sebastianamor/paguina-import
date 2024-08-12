@@ -6,16 +6,20 @@ import { FcDepartment } from "react-icons/fc";
 import { FaLinkedin } from "react-icons/fa6";
 
 
-function Footer( ) {
+function Footer({ onSelect } ) {
   return (
     <footer className="footer">
       <div className="footer-content">
         <div className="about">
-          <ul>navegador
-            <li>inicio </li>
-            <li>productos</li>
-            <li>ubicasion</li>
-          </ul>
+          
+        <ul>
+        <li> <a  href='/'  onClick={() => onSelect('home')}>Inicio</a></li>
+        <li> <a  href='/'  onClick={() => onSelect('services')}>Productos</a></li>
+        <li> <button   className="bn3637 bn38 " onClick={() => onSelect('contact')}>Contacto</button></li>
+        <li> <a  href='/'  onClick={() => onSelect('location')}>Ubicación</a></li>
+        <li> <a  href='/'  onClick={() => onSelect('blog')}>Pagos</a></li>
+      </ul>
+
         </div>
         <div>
       <a href="https://jp.linkedin.com/in/sebastian-jacob-moreira-vergara-7b76717a" target="_blank" rel="noopener noreferrer" className="firma"  >

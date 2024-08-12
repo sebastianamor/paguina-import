@@ -9,7 +9,7 @@ import { FaFacebookSquare } from "react-icons/fa";
 
 function Home() {
   return (
-    <section className="home">
+    <section   className="home">
        <h2>jmv import</h2>
       <p className='iniciopag'>
       Estamos dedicados a tener las mejores llantas, neumáticos y más para tu vehiculo

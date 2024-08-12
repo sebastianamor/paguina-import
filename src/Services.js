@@ -26,11 +26,35 @@ function Services() {
        </div></a>
         </p>
       case 'neumaticos':
-        return <p><h1>Neumáticos</h1></p>;
+        return <p><h1>Neumáticos</h1>
+            <a   href="https://www.instagram.com/jmvimports_llantas/" target="_blank"  > <div class="gallery"    >
+  <img src="https://picsum.photos/id/199/400/300"   alt="the beach"/>
+  <img src="https://picsum.photos/id/1011/400/300" alt="a girl doing kayak"/>
+  <img src="https://picsum.photos/id/124/400/300" alt="a small boat in the sea"/>
+  <img src="https://picsum.photos/id/235/400/300" alt="a mountain"/>
+  <img src="https://picsum.photos/id/423/400/300" alt="a forest"/>
+       </div></a>
+        </p>;
       case 'butacas':
-        return <p><h1>Butacas</h1></p>;
+        return <p><h1>Butacas</h1>
+             <a   href="https://www.instagram.com/jmvimports_llantas/" target="_blank"  > <div class="gallery"    >
+  <img src="https://picsum.photos/id/199/400/300"   alt="the beach"/>
+  <img src="https://picsum.photos/id/1011/400/300" alt="a girl doing kayak"/>
+  <img src="https://picsum.photos/id/124/400/300" alt="a small boat in the sea"/>
+  <img src="https://picsum.photos/id/235/400/300" alt="a mountain"/>
+  <img src="https://picsum.photos/id/423/400/300" alt="a forest"/>
+       </div></a>
+         </p>;
       case 'otros':
-        return <p><h1>Otros</h1></p>;
+        return <p><h1>Otros</h1>
+            <a   href="https://www.instagram.com/jmvimports_llantas/" target="_blank"  > <div class="gallery"    >
+  <img src="https://picsum.photos/id/199/400/300"   alt="the beach"/>
+  <img src="https://picsum.photos/id/1011/400/300" alt="a girl doing kayak"/>
+  <img src="https://picsum.photos/id/124/400/300" alt="a small boat in the sea"/>
+  <img src="https://picsum.photos/id/235/400/300" alt="a mountain"/>
+  <img src="https://picsum.photos/id/423/400/300" alt="a forest"/>
+       </div></a>
+        </p>;
       default:
         return null;
     }

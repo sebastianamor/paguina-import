@@ -26,15 +26,17 @@ function App() {
     <Header />
     <NavBar onSelect={handleSelect} />
     <main>
-      {selectedSection === 'home' && <Home />}
+      {selectedSection ===  'home' && < Home />}
       {selectedSection ===  'services' && < Services />}
       {selectedSection === 'contact' && <Contact />}
       {selectedSection === 'location' && <Map />}
       {selectedSection === 'blog' && <Blog />}
     </main>
-    <Footer />
+    <Footer onSelect={handleSelect}   />
     <FloatingButton />
   </div>
+
+  
   );
 }
 
