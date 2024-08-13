@@ -11,7 +11,7 @@
   padding: 10px;
 }
 
-button {
+.butonnav {
   color: #110000;
   border: 2px solid rgb(2, 0, 10);
   border-radius: 0px;
@@ -29,7 +29,7 @@ button {
 
 
 
-button:hover {
+.butonnav:hover {
   box-shadow: inset 400px 0 0 0 #d80303;
 }
 

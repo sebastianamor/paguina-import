@@ -11,13 +11,12 @@ function Footer({ onSelect } ) {
     <footer className="footer">
       <div className="footer-content">
         <div className="about">
-          
         <ul>
-        <li> <a  href='/'  onClick={() => onSelect('home')}>Inicio</a></li>
-        <li> <a  href='/'  onClick={() => onSelect('services')}>Productos</a></li>
+        <li>  <button   className="bn3637 bn38 "   href='/'  onClick={() => onSelect('home')}>Inicio</button></li>
+        <li>  <button   className="bn3637 bn38 "   href='/'  onClick={() => onSelect('services')}>Productos</button></li>
         <li> <button   className="bn3637 bn38 " onClick={() => onSelect('contact')}>Contacto</button></li>
-        <li> <a  href='/'  onClick={() => onSelect('location')}>Ubicación</a></li>
-        <li> <a  href='/'  onClick={() => onSelect('blog')}>Pagos</a></li>
+        <li>  <button   className="bn3637 bn38 "  href='/'  onClick={() => onSelect('location')}>Ubicación</button></li>
+        <li> <button   className="bn3637 bn38 "   href='/'  onClick={() => onSelect('blog')}>Pagos</button></li>
       </ul>
 
         </div>

@@ -4,19 +4,21 @@
   padding: 20px;
   text-align: left;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: flex-start;
 }
 
 .footer-content {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
   width: 100%;
 }
 
 .about, .contact-info {
-  max-width: 45%;
+  max-width: 100%;
+  margin-bottom: 20px;
 }
 
 .footer h3 {
@@ -31,36 +33,35 @@
 
 .contact-info ul {
   list-style-type: none;
-  padding: 10px 30px 0px 0px;
+  padding: 10px 0;
   font-size: small;
-
 }
 
 .contact-info li {
   margin-bottom: 10px;
 }
 
-
 .click1 {
   color: aqua;
   width: 10px;
 }
 
-
 .bn3637 {
   display: inline-flex;
-  align-items: center;
+  align-items: left;
   justify-content: center;
   padding: 0.7rem 2rem;
-  font-weight: 700;
-  font-size: 18px;
-  text-align: center;
+  font-weight: 50;
+  font-size: smaller;
+  text-align: left;
   text-decoration: none;
-  color: #fff;
+  color: #f7f4f4;
   backface-visibility: hidden;
   border: 0.3rem solid transparent;
   border-radius: 3rem;
+  background-color: #050c1a;
 }
+
 .bn38 {
   border-color: transparent;
   transition: background-color 0.3s ease-in-out;
