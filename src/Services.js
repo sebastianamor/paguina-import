@@ -4,6 +4,14 @@ import llantas from './imagenes/llantas de autos.jpg';
 import neumaticos from './imagenes/neumaticos.jpg';
 import butacas from './imagenes/butacas racer.jpg';
 import otros from './imagenes/otros auto.jpg';
+import llan1  from './imagenes/llanta 1.jpg';
+import llan2  from './imagenes/llanta 2.jpg'
+import llan3  from './imagenes/llanta 3.jpg'
+import llan4  from './imagenes/llanta 4.jpg'
+import llan5  from './imagenes/llanta 5.jpg'
+
+
+
 
 function Services() {
   const [selectedService, setSelectedService] = useState('');
@@ -16,13 +24,14 @@ function Services() {
     switch (service) {
       case 'llantas':
         return <p>
-          <h1>Llantas</h1>
+          <h1>Llantas    
+          </h1>
        <a   href="https://www.instagram.com/jmvimports_llantas/" target="_blank"  > <div class="gallery"    >
-  <img src="https://picsum.photos/id/199/400/300"   alt="the beach"/>
-  <img src="https://picsum.photos/id/1011/400/300" alt="a girl doing kayak"/>
-  <img src="https://picsum.photos/id/124/400/300" alt="a small boat in the sea"/>
-  <img src="https://picsum.photos/id/235/400/300" alt="a mountain"/>
-  <img src="https://picsum.photos/id/423/400/300" alt="a forest"/>
+  <img src={llan1}   alt="the beach"/>
+  <img src={llan2} alt="a girl doing kayak"/>
+  <img src={llan3} alt="a small boat in the sea"/>
+  <img src={llan4} alt="a mountain"/>
+  <img src={llan5} alt="a forest"/>
        </div></a>
         </p>
       case 'neumaticos':
