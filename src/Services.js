@@ -9,9 +9,9 @@ import llan2  from './imagenes/llanta 2.jpg'
 import llan3  from './imagenes/llanta 3.jpg'
 import llan4  from './imagenes/llanta 4.jpg'
 import llan5  from './imagenes/llanta 5.jpg'
-
-
-
+import neum1 from './imagenes/neumatico 1.jpg'
+import neum2 from './imagenes/neumatico 2.jpg'
+import butaca1 from './imagenes/butca 1.jpg'
 
 function Services() {
   const [selectedService, setSelectedService] = useState('');
@@ -37,8 +37,8 @@ function Services() {
       case 'neumaticos':
         return <p><h1>Neumáticos</h1>
             <a   href="https://www.instagram.com/jmvimports_llantas/" target="_blank"  > <div class="gallery"    >
-  <img src="https://picsum.photos/id/199/400/300"   alt="the beach"/>
-  <img src="https://picsum.photos/id/1011/400/300" alt="a girl doing kayak"/>
+  <img src={neum1}/>
+  <img src={neum2}/>
   <img src="https://picsum.photos/id/124/400/300" alt="a small boat in the sea"/>
   <img src="https://picsum.photos/id/235/400/300" alt="a mountain"/>
   <img src="https://picsum.photos/id/423/400/300" alt="a forest"/>
@@ -47,7 +47,7 @@ function Services() {
       case 'butacas':
         return <p><h1>Butacas</h1>
              <a   href="https://www.instagram.com/jmvimports_llantas/" target="_blank"  > <div class="gallery"    >
-  <img src="https://picsum.photos/id/199/400/300"   alt="the beach"/>
+  <img src={butaca1}/>
   <img src="https://picsum.photos/id/1011/400/300" alt="a girl doing kayak"/>
   <img src="https://picsum.photos/id/124/400/300" alt="a small boat in the sea"/>
   <img src="https://picsum.photos/id/235/400/300" alt="a mountain"/>
