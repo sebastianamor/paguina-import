@@ -16,6 +16,14 @@ import buta2  from './imagenes/butaca2.jpg'
 import buta3 from './imagenes/butaca3.jpg'
 import buta4 from './imagenes/butaca5.jpg'
 import buta5 from './imagenes/butaca6.jpg'
+import neum3 from './imagenes/neumat3.jpg'
+import neum4 from './imagenes/neumat4.jpg'
+import neum5 from './imagenes/neumat5.jpg'
+import otr1 from  './imagenes/otr1.jpg'
+import otr2 from './imagenes/otr2.jpg'
+import otr3 from './imagenes/otr3.jpg'
+import otr4 from './imagenes/otr4.jpg'
+import otr5 from './imagenes/otr5.jpg'
 
 function Services() {
   const [selectedService, setSelectedService] = useState('');
@@ -43,9 +51,9 @@ function Services() {
             <a   href="https://www.instagram.com/jmvimports_llantas/" target="_blank"  > <div class="gallery"    >
   <img src={neum1}/>
   <img src={neum2}/>
-  <img src={buta3}/>
-  <img src="https://picsum.photos/id/235/400/300" alt="a mountain"/>
-  <img src="https://picsum.photos/id/423/400/300" alt="a forest"/>
+  <img src={neum3}/>
+  <img src={neum4}/>
+  <img src={neum5}/>
        </div></a>
         </p>;
       case 'butacas':
@@ -61,11 +69,11 @@ function Services() {
       case 'otros':
         return <p><h1>Otros</h1>
             <a   href="https://www.instagram.com/jmvimports_llantas/" target="_blank"  > <div class="gallery"    >
-  <img src="https://picsum.photos/id/199/400/300"   alt="the beach"/>
-  <img src="https://picsum.photos/id/1011/400/300" alt="a girl doing kayak"/>
-  <img src="https://picsum.photos/id/124/400/300" alt="a small boat in the sea"/>
-  <img src="https://picsum.photos/id/235/400/300" alt="a mountain"/>
-  <img src="https://picsum.photos/id/423/400/300" alt="a forest"/>
+  <img src={otr1}/>
+  <img src={otr2}/>
+  <img src={otr3}/>
+  <img src={otr4}/>
+  <img src={otr5}/>
        </div></a>
         </p>;
       default:
