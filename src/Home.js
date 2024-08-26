@@ -5,6 +5,7 @@ import starkken from './imagenes/STARKKEN.jpg';
 import vermontt from './imagenes/varmontt.jpg'
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
+import { BiLogoWhatsappSquare } from "react-icons/bi";
 
 
 function Home() {
@@ -28,6 +29,18 @@ function Home() {
           <div className="home-text"></div>
           </div>
           <hr></hr>
+          <div className="home">
+      
+        <div className="iniciopag">
+          <div className="inicio" ></div>
+          <p>
+          Si no sabes que apernadura es tu vehiculo o cual llanta debes poner, no te preocupes, estamos  disponibles para asesorarte
+          Escribenos al WhatsApp 
+          </p>
+          </div>
+          <a aria-label="Chat on WhatsApp" href="https://wa.me/56976923044 "> <BiLogoWhatsappSquare  className="firma"  size={100}   />  </a>
+          </div>
+          <hr></hr>
           <div className="home-r">
         <div className="home-text"></div>
           <p>siguenos en estas redes sociales </p>
@@ -36,15 +49,7 @@ function Home() {
           <a href="https://www.facebook.com/jmvimports/" target="_blank" rel="noopener noreferrer" className="firmaf" >
        <FaFacebookSquare icon={<FaFacebookSquare />}  className="firma"  size={50} /></a>
           </div>
-          <hr></hr>
-          <div className="home-item">
-      
-        <div className="home-text">
-          <div className="inicio" ></div>
-          <p>
-          </p>
-          </div>
-          </div>
+          
     </section>
   );
 }
