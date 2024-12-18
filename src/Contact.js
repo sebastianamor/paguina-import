@@ -36,7 +36,7 @@ function Contact() {
         </div>
       </div>
 
-      <textarea class="form-control" rows="10" placeholder="mensages" name="message" required></textarea>
+      <textarea class="form-control" rows="10" placeholder="pregunta o cotizacion" name="message" required></textarea>
       
       <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
         <div class="alt-send-button">

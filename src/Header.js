@@ -8,9 +8,8 @@ function Header() {
       <div className="header-content">
         <div>
         <img src={profileImag} alt="Perfil" className="profile-imag" />
-          <h1> 
-          </h1>
-          <p><h2> </h2></p>
+         <p> <h1> 
+            Ciudad airsoft </h1>¿Estás listo para unirte a la acción y vivir una experiencia inolvidable? </p>
         </div>
       </div>
     </header>
